@@ -1,0 +1,125 @@
+$orange: hsl(25, 97%, 53%)
+$white: hsl(0, 0%, 100%)
+$light-grey: hsl(217, 12%, 63%)
+$medium-grey: #262f38
+$dark-blue: #1f2630
+$very-dark-blue: hsl(216, 12%, 8%)
+
+html 
+  font-size: 62.5% // 1rem = 10px
+*,
+*:before,
+*:after
+  box-sizing: border-box
+img 
+  display: block
+body
+  background-color: $very-dark-blue
+  color: $light-grey
+  font-size: 15px
+  font-family: 'Overpass', sans-serif
+  line-height: 1.4
+// 1440 800
+.rating
+  margin-top: 20rem
+  margin-left: auto
+  margin-right: auto
+  min-height: 40rem
+  max-width: 40rem
+  border: 35px solid $dark-blue
+  border-radius: 24px
+  background-color: $dark-blue
+  &__image
+    background-color: $medium-grey
+    width: 5rem
+    height: 5rem
+    border: 5px solid $medium-grey
+    border-radius: 50%
+    position: relative
+    margin-bottom: 3.5rem
+    img
+      position: absolute
+      top: 50%  
+      left: 50%
+      transform: translate(-50%, -50%)
+  &__question
+    color: $white
+    font-size: 22px
+    font-weight: bold
+    margin-bottom: 0.5rem
+  &__decs
+    color: $light-grey
+    margin-bottom: 3.5rem
+  &-quality
+    margin-bottom: 3rem
+    display: flex
+    align-items: center
+    justify-content: space-between
+    align-content: center
+    &__item
+      background-color: $medium-grey
+      text-align: center
+      border: 1px solid $medium-grey
+      border-radius: 50%
+      width: 5rem
+      line-height: 5rem
+      &:hover
+        background-color: $orange
+        color: $white
+        cursor: pointer
+      &--active
+        background-color: $light-grey
+        color: $white
+  &__button
+    background-color: $orange
+    letter-spacing: 2px
+    font-weight: 700
+    font-family: 'Overpass', sans-serif	
+    color: $white
+    border: 5px solid $orange
+    border-radius: 20px
+    width: 100%
+    height: 4rem
+    &:hover
+      background-color: $white 
+      border: 5px solid $white
+      color: $orange
+      cursor: pointer
+.state
+  display: flex
+  align-items: center
+  align-content: center
+  flex-direction: column
+  margin-top: 20rem
+  margin-left: auto
+  margin-right: auto
+  min-height: 40rem
+  max-width: 40rem
+  border: 35px solid $dark-blue
+  border-radius: 24px
+  background-color: $dark-blue
+  &__image
+    margin-bottom: 3rem
+  &__select
+    text-align: center
+    color: $orange
+    background-color: $medium-grey
+    border: 4px solid $dark-blue
+    border-radius: 20px
+    width: 20rem
+    line-height: 3rem
+    margin-bottom: 4rem
+  &__heading
+    font-size: 20px
+    font-weight: 700
+    letter-spacing: 1px
+    color: $white
+    margin-bottom: 2rem
+  &__decs
+    font-size: 14.8px
+    text-align: center
+@media screen and (max-width: 767px)
+  .rating
+    margin-top: 2rem
+  .rating
+    margin-top: 2rem

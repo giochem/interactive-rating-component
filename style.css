@@ -1,0 +1,148 @@
+html {
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+body {
+  background-color: hsl(216deg, 12%, 8%);
+  color: hsl(217deg, 12%, 63%);
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  line-height: 1.4;
+}
+
+.rating {
+  margin-top: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 40rem;
+  max-width: 40rem;
+  border: 35px solid #1f2630;
+  border-radius: 24px;
+  background-color: #1f2630;
+}
+.rating__image {
+  background-color: #262f38;
+  width: 5rem;
+  height: 5rem;
+  border: 5px solid #262f38;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 3.5rem;
+}
+.rating__image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rating__question {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.rating__decs {
+  color: hsl(217deg, 12%, 63%);
+  margin-bottom: 3.5rem;
+}
+.rating-quality {
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+}
+.rating-quality__item {
+  background-color: #262f38;
+  text-align: center;
+  border: 1px solid #262f38;
+  border-radius: 50%;
+  width: 5rem;
+  line-height: 5rem;
+}
+.rating-quality__item:hover {
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+  cursor: pointer;
+}
+.rating-quality__item--active {
+  background-color: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+}
+.rating__button {
+  background-color: hsl(25deg, 97%, 53%);
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-family: "Overpass", sans-serif;
+  color: hsl(0deg, 0%, 100%);
+  border: 5px solid hsl(25deg, 97%, 53%);
+  border-radius: 20px;
+  width: 100%;
+  height: 4rem;
+}
+.rating__button:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  border: 5px solid hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+  cursor: pointer;
+}
+
+.state {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 40rem;
+  max-width: 40rem;
+  border: 35px solid #1f2630;
+  border-radius: 24px;
+  background-color: #1f2630;
+}
+.state__image {
+  margin-bottom: 3rem;
+}
+.state__select {
+  text-align: center;
+  color: hsl(25deg, 97%, 53%);
+  background-color: #262f38;
+  border: 4px solid #1f2630;
+  border-radius: 20px;
+  width: 20rem;
+  line-height: 3rem;
+  margin-bottom: 4rem;
+}
+.state__heading {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: hsl(0deg, 0%, 100%);
+  margin-bottom: 2rem;
+}
+.state__decs {
+  font-size: 14.8px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .rating {
+    margin-top: 2rem;
+  }
+  .rating {
+    margin-top: 2rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
