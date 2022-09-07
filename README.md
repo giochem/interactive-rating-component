@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://giochem.github.io/interactive-rating-component/](https://giochem.github.io/interactive-rating-component/)
 
 ## My process
 
